@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'CustomFont', 'Pretendard-Regular';
+      }
+      @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+      }
+      input {
+        position: absolute;
+        top: 0px;
+        width: 270px;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #e9e9e9;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <body bgcolor="#e9e9e9">
+      <div
+        class="w-[550px] h-[565px] absolute left-[444px] top-[189px] rounded-[20px] bg-white"
+        style="box-shadow: 0px 383px 107px 0 rgba(0,0,0,0), 0px 245px 98px 0 rgba(0,0,0,0.01), 0px 138px 83px 0 rgba(0,0,0,0.05), 0px 61px 61px 0 rgba(0,0,0,0.09), 0px 15px 34px 0 rgba(0,0,0,0.1);"
+      ></div>
+      <p
+        class="w-[201px] h-[49px] absolute left-[620px] top-[238px] text-[40px] font-bold text-left text-black"
+      >
+        어서오세요!
+      </p>
+      <div
+        class="w-[374px] h-[67px] absolute left-[533px] top-[315px] rounded-[20px] bg-[#e9e9e9]"
+      ></div>
+      <div
+        class="w-[374px] h-[67px] absolute left-[533px] top-[391px] rounded-[20px] bg-[#e9e9e9]"
+      ></div>
+      <div
+        class="w-[374px] h-[67px] absolute left-[532px] top-[467px] rounded-[20px] bg-[#447be6]"
+      ></div>
+
+      <div class="id">
+      <p class="w-[74px] h-[25px] absolute left-[590px] top-[337px] text-xl font-semibold text-left text-black"
+      >
+        <input type="text" placeholder="아이디">
+      </p>
+      </div>
+
+      <div class="pw">
+      <p class="w-[74px] h-[25px] absolute left-[590px] top-[413px] text-xl font-semibold text-left text-black"
+      >
+      <input type="password" placeholder="비밀번호">
+      </p>
+      </div>
+
+      <p class="w-[198px] h-[37px] absolute left-[621px] top-[483px] text-[25px] font-bold text-center text-white"
+      ><a href="index_login.html">
+        로그인
+      </a></p>
+      <p class="w-[212px] h-[27px] absolute left-[523px] top-[681px] text-xl text-left text-black">
+        Grocery가 처음이신가요?
+      </p>
+      <p
+        class="w-[125px] h-[39px] absolute left-[817px] top-[681px] text-xl font-semibold text-left text-black"
+      ><a href="signin2.html">
+        회원가입하기
+      </a></p>
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-10 h-10 absolute left-[551px] top-[592px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M39.2 20.4546C39.2 19.0364 39.0727 17.6727 38.8364 16.3636H20V24.1H30.7636C30.3 26.6 28.8909 28.7182 26.7727 30.1364V35.1546H33.2364C37.0182 31.6727 39.2 26.5455 39.2 20.4546Z"
+          fill="#4285F4"
+        ></path>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M20 40C25.4 40 29.9273 38.2091 33.2364 35.1546L26.7727 30.1364C24.9818 31.3364 22.6909 32.0455 20 32.0455C14.7909 32.0455 10.3818 28.5273 8.80909 23.8H2.12727V28.9819C5.41818 35.5182 12.1818 40 20 40Z"
+          fill="#34A853"
+        ></path>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M8.80909 23.8C8.40909 22.6 8.18182 21.3182 8.18182 20C8.18182 18.6818 8.40909 17.4 8.80909 16.2V11.0182H2.12727C0.772727 13.7182 0 16.7727 0 20C0 23.2273 0.772727 26.2818 2.12727 28.9818L8.80909 23.8Z"
+          fill="#FBBC05"
+        ></path>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M20 7.95455C22.9364 7.95455 25.5727 8.96364 27.6455 10.9455L33.3818 5.20909C29.9182 1.98182 25.3909 0 20 0C12.1818 0 5.41818 4.48182 2.12727 11.0182L8.80909 16.2C10.3818 11.4727 14.7909 7.95455 20 7.95455Z"
+          fill="#EA4335"
+        ></path></svg
+      ><svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-10 h-10 absolute left-[626px] top-[592px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <g clip-path="url(#clip0_10_787)">
+          <path
+            d="M40 20C40 8.96 31.04 0 20 0C8.96 0 0 8.96 0 20C0 29.68 6.88 37.74 16 39.6V26H12V20H16V15C16 11.14 19.14 8 23 8H28V14H24C22.9 14 22 14.9 22 16V20H28V26H22V39.9C32.1 38.9 40 30.38 40 20Z"
+            fill="black"
+          ></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_10_787"><rect width="40" height="40" fill="white"></rect></clipPath>
+        </defs></svg
+      ><svg
+        width="34"
+        height="40"
+        viewBox="0 0 34 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-[700.46px] top-[591.46px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M32.9867 31.1721C32.3818 32.5696 31.6657 33.856 30.8361 35.0387C29.7053 36.651 28.7794 37.767 28.0658 38.3867C26.9597 39.404 25.7745 39.925 24.5054 39.9546C23.5944 39.9546 22.4956 39.6953 21.2167 39.1694C19.9335 38.646 18.7543 38.3867 17.676 38.3867C16.5452 38.3867 15.3324 38.646 14.0351 39.1694C12.7359 39.6953 11.6893 39.9694 10.8891 39.9966C9.67206 40.0484 8.45901 39.5126 7.24818 38.3867C6.47536 37.7127 5.50873 36.5572 4.35073 34.9202C3.1083 33.1721 2.08685 31.145 1.28663 28.8339C0.429617 26.3377 0 23.9205 0 21.5803C0 18.8997 0.579242 16.5877 1.73945 14.6502C2.65128 13.0939 3.86433 11.8663 5.38256 10.9651C6.90078 10.0639 8.54123 9.60465 10.3078 9.57527C11.2745 9.57527 12.5421 9.87427 14.1174 10.4619C15.6882 11.0515 16.6968 11.3505 17.139 11.3505C17.4696 11.3505 18.5901 11.0009 20.4895 10.3039C22.2858 9.65749 23.8018 9.38984 25.0437 9.49527C28.409 9.76687 30.9374 11.0935 32.6188 13.4835C29.609 15.3072 28.1202 17.8614 28.1498 21.1381C28.1769 23.6904 29.1028 25.8143 30.9225 27.5007C31.7472 28.2833 32.6682 28.8883 33.6928 29.3179C33.4706 29.9623 33.2361 30.5796 32.9867 31.1721ZM25.2684 0.800228C25.2684 2.80068 24.5375 4.6685 23.0808 6.39734C21.3228 8.45259 19.1965 9.64021 16.8906 9.4528C16.8612 9.21281 16.8442 8.96023 16.8442 8.6948C16.8442 6.77437 17.6802 4.71912 19.1649 3.03868C19.9061 2.18784 20.8488 1.48038 21.9919 0.916025C23.1326 0.360092 24.2116 0.0526484 25.2264 0C25.256 0.26743 25.2684 0.534876 25.2684 0.800202V0.800228Z"
+          fill="black"
+        ></path></svg
+      ><svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-10 h-10 absolute left-[850px] top-[592px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          opacity="0.902"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M20 2.09778C9.53333 2.09778 0 10.5111 0 17.6289C0 22.9622 3.46222 27.6667 8.73556 30.4622L6.51778 38.6089C6.32 39.3311 7.14 39.9044 7.76889 39.4889L17.4956 33.0333C18.3156 33.1133 19.1511 33.16 20 33.16C31.0444 33.16 40 26.2067 40 17.6289C40 10.5111 31.0444 2.09778 20 2.09778Z"
+          fill="black"
+        ></path>
+      </svg>
+      <div
+        class="flex justify-center items-center w-[45px] h-[45px] absolute left-[770px] top-[592px] overflow-hidden rounded-full bg-[#03c75a]"
+      >
+        <svg
+          width="21"
+          height="21"
+          viewBox="0 0 21 21"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="flex-grow-0 flex-shrink-0 w-5 h-5 relative"
+          preserveAspectRatio="none"
+        >
+          <g clip-path="url(#clip0_122_10)">
+            <path
+              d="M14.0614 11.2033L6.64609 0.5H0.5V20.5H6.93861V9.795L14.3539 20.5H20.5V0.5H14.0614V11.2033Z"
+              fill="white"
+            ></path>
+          </g>
+          <defs>
+            <clipPath id="clip0_122_10">
+              <rect width="20" height="20" fill="white" transform="translate(0.5 0.5)"></rect>
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <svg
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-[567px] top-[338px]"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M8 0C9.06087 0 10.0783 0.421427 10.8284 1.17157C11.5786 1.92172 12 2.93913 12 4C12 5.06087 11.5786 6.07828 10.8284 6.82843C10.0783 7.57857 9.06087 8 8 8C6.93913 8 5.92172 7.57857 5.17157 6.82843C4.42143 6.07828 4 5.06087 4 4C4 2.93913 4.42143 1.92172 5.17157 1.17157C5.92172 0.421427 6.93913 0 8 0ZM8 10C12.42 10 16 11.79 16 14V16H0V14C0 11.79 3.58 10 8 10Z"
+          fill="black"
+        ></path></svg
+      ><svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5 absolute left-[566px] top-[413px]"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M10 14.1666C10.442 14.1666 10.8659 13.9911 11.1785 13.6785C11.4911 13.3659 11.6667 12.942 11.6667 12.5C11.6667 12.058 11.4911 11.634 11.1785 11.3215C10.8659 11.0089 10.442 10.8333 10 10.8333C9.55797 10.8333 9.13404 11.0089 8.82148 11.3215C8.50892 11.634 8.33333 12.058 8.33333 12.5C8.33333 12.942 8.50892 13.3659 8.82148 13.6785C9.13404 13.9911 9.55797 14.1666 10 14.1666ZM15 6.66665C15.442 6.66665 15.8659 6.84224 16.1785 7.1548C16.4911 7.46736 16.6667 7.89129 16.6667 8.33331V16.6666C16.6667 17.1087 16.4911 17.5326 16.1785 17.8452C15.8659 18.1577 15.442 18.3333 15 18.3333H4.99999C4.55797 18.3333 4.13404 18.1577 3.82148 17.8452C3.50892 17.5326 3.33333 17.1087 3.33333 16.6666V8.33331C3.33333 7.89129 3.50892 7.46736 3.82148 7.1548C4.13404 6.84224 4.55797 6.66665 4.99999 6.66665H5.83333V4.99998C5.83333 3.89491 6.27232 2.8351 7.05372 2.0537C7.83512 1.2723 8.89493 0.833313 10 0.833313C10.5472 0.833313 11.089 0.941087 11.5945 1.15048C12.1 1.35988 12.5594 1.66679 12.9463 2.0537C13.3332 2.44061 13.6401 2.89994 13.8495 3.40547C14.0589 3.91099 14.1667 4.45281 14.1667 4.99998V6.66665H15ZM10 2.49998C9.33695 2.49998 8.70107 2.76337 8.23223 3.23221C7.76339 3.70105 7.5 4.33694 7.5 4.99998V6.66665H12.5V4.99998C12.5 4.33694 12.2366 3.70105 11.7678 3.23221C11.2989 2.76337 10.663 2.49998 10 2.49998Z"
+          fill="black"
+        ></path>
+      </svg>
+      <p
+        class="w-[229px] h-[59px] absolute left-[651px] top-[79px] text-[50px] text-left text-black"
+      >
+        Grocery
+      </p>
+      <p class="w-[156px] h-[23px] absolute left-[612px] top-[138px] text-xl text-left text-black">
+        우리 집 살림 도우미
+      </p>
+      <img src="https://cdn-icons-png.flaticon.com/128/1954/1954711.png" class="w-9 h-12 absolute left-[611px] top-[86px] object-cover" />
+    </div>
+  </body>
+</html>
